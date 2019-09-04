@@ -45,7 +45,7 @@ export const TEST_DATA: Array<ITestData> = [
             precision: 2,
             quantity: new BigNumber('560164651464654056161651560132'),
             reissuable: true,
-            chainId: 87,
+            chainId: 65,
             script: null
         },
         node: {
@@ -59,7 +59,7 @@ export const TEST_DATA: Array<ITestData> = [
             decimals: 2,
             quantity: '560164651464654056161651560132',
             reissuable: true,
-            chainId: 87,
+            chainId: 65,
             script: null
         }
     } as ITestData,
@@ -75,7 +75,7 @@ export const TEST_DATA: Array<ITestData> = [
             precision: 2,
             quantity: '560164651464654056161651560132',
             reissuable: true,
-            chainId: 87,
+            chainId: 65,
             script: null
         },
         node: {
@@ -89,7 +89,7 @@ export const TEST_DATA: Array<ITestData> = [
             decimals: 2,
             quantity: '560164651464654056161651560132',
             reissuable: true,
-            chainId: 87,
+            chainId: 65,
             script: null
         }
     } as ITestData,
@@ -153,7 +153,7 @@ export const TEST_DATA: Array<ITestData> = [
                 coins: '10000',
                 assetId: BTC_ASSET.id
             },
-            chainId: 87,
+            chainId: 65,
             fee: '10000'
         },
         node: {
@@ -165,7 +165,7 @@ export const TEST_DATA: Array<ITestData> = [
             quantity: '10000',
             reissuable: true,
             fee: '10000',
-            chainId: 87
+            chainId: 65
         }
     } as ITestData,
     {
@@ -177,7 +177,7 @@ export const TEST_DATA: Array<ITestData> = [
             timestamp: 1555398380418,
             reissuable: true,
             quantity: '10000',
-            chainId: 87,
+            chainId: 65,
             fee: '10000'
         },
         node: {
@@ -189,7 +189,7 @@ export const TEST_DATA: Array<ITestData> = [
             quantity: '10000',
             reissuable: true,
             fee: '10000',
-            chainId: 87
+            chainId: 65
         }
     } as ITestData,
     {
@@ -353,7 +353,7 @@ export const TEST_DATA: Array<ITestData> = [
             senderPublicKey: 'EM1XUpKdct1eE2mgmdvr4VA4raXMKvYKumCbnArtcQ9c',
             timestamp: 1555398380418,
             leaseId: '213fdsafsdafdskafsdfds',
-            chainId: 87,
+            chainId: 65,
             fee: '10000'
         },
         node: {
@@ -363,7 +363,7 @@ export const TEST_DATA: Array<ITestData> = [
             timestamp: 1555398380418,
             leaseId: '213fdsafsdafdskafsdfds',
             fee: '10000',
-            chainId: 87
+            chainId: 65
         }
     },
     {
@@ -485,7 +485,7 @@ export const TEST_DATA: Array<ITestData> = [
             senderPublicKey: 'EM1XUpKdct1eE2mgmdvr4VA4raXMKvYKumCbnArtcQ9c',
             timestamp: 1555398380418,
             script: '213fdsafsdafdskafsdfds',
-            chainId: 87,
+            chainId: 65,
             fee: '10000'
         },
         node: {
@@ -495,7 +495,7 @@ export const TEST_DATA: Array<ITestData> = [
             timestamp: 1555398380418,
             script: '213fdsafsdafdskafsdfds',
             fee: '10000',
-            chainId: 87
+            chainId: 65
         }
     },
     {
@@ -528,7 +528,7 @@ export const TEST_DATA: Array<ITestData> = [
             timestamp: 1555398380418,
             assetId: BTC_ASSET.id,
             script: '213fdsafsdafdskafsdfds',
-            chainId: 87,
+            chainId: 65,
             fee: '10000'
         },
         node: {
@@ -538,7 +538,7 @@ export const TEST_DATA: Array<ITestData> = [
             timestamp: 1555398380418,
             assetId: BTC_ASSET.id,
             script: '213fdsafsdafdskafsdfds',
-            chainId: 87,
+            chainId: 65,
             fee: '10000'
         }
     },
@@ -549,7 +549,7 @@ export const TEST_DATA: Array<ITestData> = [
             senderPublicKey: 'EM1XUpKdct1eE2mgmdvr4VA4raXMKvYKumCbnArtcQ9c',
             timestamp: 1555398380418,
             dApp: 'test',
-            chainId: 87,
+            chainId: 65,
             fee: new Money(100, ACRYL_ASSET)
         },
         node: {
@@ -560,7 +560,7 @@ export const TEST_DATA: Array<ITestData> = [
             payment: null,
             senderPublicKey: 'EM1XUpKdct1eE2mgmdvr4VA4raXMKvYKumCbnArtcQ9c',
             timestamp: 1555398380418,
-            chainId: 87,
+            chainId: 65,
             fee: '100',
             feeAssetId: ACRYL_ASSET.id
         }
@@ -577,7 +577,7 @@ export const TEST_DATA: Array<ITestData> = [
                 args: []
             },
             payment: [new Money(100, ACRYL_ASSET)],
-            chainId: 87,
+            chainId: 65,
             fee: new Money(100, ACRYL_ASSET)
         },
         node: {
@@ -591,7 +591,7 @@ export const TEST_DATA: Array<ITestData> = [
             payment: [{ amount: '100', assetId: ACRYL_ASSET.id }],
             senderPublicKey: 'EM1XUpKdct1eE2mgmdvr4VA4raXMKvYKumCbnArtcQ9c',
             timestamp: 1555398380418,
-            chainId: 87,
+            chainId: 65,
             fee: '100',
             feeAssetId: ACRYL_ASSET.id
         }
