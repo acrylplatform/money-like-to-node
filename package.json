@@ -18,8 +18,7 @@
     "compile": "tsc -p ./",
     "prepare": "npm run compile",
     "postversion": "npm publish",
-    "prepublish": "npm run test",
-    "postpublish": "git push"
+    "prepublish": "npm run test"
   },
   "devDependencies": {
     "@types/jest": "^24.0.18",
