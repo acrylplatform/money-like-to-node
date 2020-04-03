@@ -38,7 +38,7 @@ export const invokeScript = factory<IAcrylGuiInvokeScript, TWithPartialFee<IInvo
     ...getDefaultTransform(),
     chainId: prop('chainId'),
     dApp: prop('dApp'),
-    feeAssetId: pipe<IAcrylGuiInvokeScript, TMoney | TLong | undefined | null, string | null, string>(prop('fee'), getAssetId, defaultTo('WAVES')),
+    feeAssetId: pipe<IAcrylGuiInvokeScript, TMoney | TLong | undefined | null, string | null, string>(prop('fee'), getAssetId, defaultTo('ACRYL')),
     call: pipe(
         prop('call'),
         ifElse(

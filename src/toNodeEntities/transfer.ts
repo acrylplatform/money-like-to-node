@@ -10,7 +10,7 @@ export const transfer = factory<IAcrylGuiTransfer, TWithPartialFee<ITransferTran
     ...getDefaultTransform(),
     recipient: prop('recipient'),
     amount: pipe<IAcrylGuiTransfer, TMoney, string>(prop('amount'), getCoins),
-    feeAssetId: pipe<IAcrylGuiTransfer, TMoney | TLong | undefined | null, string | null, string>(prop('fee'), getAssetId, defaultTo('WAVES')),
+    feeAssetId: pipe<IAcrylGuiTransfer, TMoney | TLong | undefined | null, string | null, string>(prop('fee'), getAssetId, defaultTo('ACRYL')),
     assetId: pipe(prop('amount'), getAssetId),
     attachment: pipe(prop('attachment'), defaultTo('')),
 });
